@@ -72,9 +72,6 @@ def main():
     s = VSeries(4, 1)
     ss = s.get_series(50)
     print(ss)
-    n = numpy.array(ss)
-    plt.plot(n)
-    plt.show()
 
 
 main()
